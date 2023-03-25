@@ -1,0 +1,35 @@
+body{
+    padding:1rem;
+    font-size:24px;
+    font-family:'calibri';
+    background-color:#000;
+    color:#ddd;
+}
+
+b{
+    color:#0bf;
+}
+
+hr{
+    border:2px solid #0bf;
+}
+
+table, tr, th, td{
+    border:2px solid #ddd;
+    border-collapse:collapse;
+    padding:0.5rem 1rem;
+    text-align:center;
+    transition:ease 0.25s;
+}
+
+tr:nth-child(even){
+    background-color:#222;
+}
+
+tr:hover{
+    background-color:#08b8f888;
+}
+
+th{
+    color:#0bf;
+}
